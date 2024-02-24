@@ -5,7 +5,9 @@ This repository contains files for a Selenium web automation exercise. The goal 
 ## Files
 
 - `page.html`: HTML file containing a custom registration form with various elements such as input fields, checkboxes, radio buttons, and dropdown menus.
-- `auto.py`: Python script using Selenium WebDriver to interact with the `page.html` and perform tasks such as filling out the form and submitting it.
+- `script.js`: JavaScript file adding interactivity to the HTML page, such as form submission handling.
+- `style.css`: CSS file containing styles to enhance the visual appearance of the HTML form.
+- `selenium_script.py`: Python script using Selenium WebDriver to interact with the `page.html` and perform tasks such as filling out the form and submitting it.
 - `README.md`: This README file providing an overview of the project and instructions for running the Selenium script.
 
 ## Instructions
