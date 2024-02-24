@@ -7,7 +7,7 @@ import time
 driver = webdriver.Chrome()
 
 try:
-    driver.get("D:/programs/selenium/page.html")
+    driver.get("path_to_webpage.html")
     time.sleep(2)
 
     wait = WebDriverWait(driver, 10)
@@ -19,10 +19,10 @@ try:
     submit_button = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "button[type='submit']")))
     time.sleep(2)
 
-    name_input.send_keys("Raghav Arora")
+    name_input.send_keys("John Doe")
     time.sleep(2)
 
-    address_textarea.send_keys("111 lane 2, jalandhar, India")
+    address_textarea.send_keys("111 lane 2, New delhi, India")
     time.sleep(2)
 
     subscribe_checkbox.click()
